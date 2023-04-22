@@ -1,4 +1,5 @@
 /* Basic Style */
+
 .page {
     background-color: #f8f8f8;
     color: #333;
@@ -16,7 +17,7 @@
     width: 100%;
 }
 
-.more-info {
+.hero__more-info {
     font-family: fantasy, cursive;
 }
 
@@ -28,7 +29,7 @@
 
 }
 
-.main-wrapper {
+.content {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -157,7 +158,7 @@ button.delete img:hover {
 
 /* Completed */
 
-.completed-tasks__label {
+#completed-tasks .task {
     text-decoration: line-through;
     color: #888;
 }
